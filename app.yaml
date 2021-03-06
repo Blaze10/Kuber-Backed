@@ -1,0 +1,12 @@
+runtime: nodejs10
+
+env_variables:
+  JWT_SECRET: 'makethonsupersecretkey'
+  DB_NAME: 'makethon2021'
+  DB_HOST: '35.244.33.122'
+  DB_USER: 'chinmay'
+  DB_PASS: 'chinmay991'
+  GOOGLE_APPLICATION_CREDENTIALS: './config/keys.json'
+  AZURE_SUBS_KEY: 'dae65faaa2de4cd2a0f89c3ad2c219bc'
+  API_URL: 'https://centralindia.api.cognitive.microsoft.com/face/v1.0/'
+  ENC_SECRET: 'makethonenckey'

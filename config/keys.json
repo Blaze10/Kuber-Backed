@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "makethon-2021",
+  "private_key_id": "6fa5af0eb17d5b1055f12b8425d28a1cb2c14748",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDI2xAJgk3MdOUE\nD9A+XsWFPGnnpgoFXKPRyPXmd9rd+soEwCD5NuLwrPNrNAC6EMUelWzGMfrXP0ge\n4mtlVLsGWWHZk67/+XOskJ8ygQgDQ/mtSYe5M2TnEmNRkAe36uYi7xEQcOVmu48B\nWoUb+0W+99JDdiKJK+0cvN3TaVjHJgv/MAB1add3cjC45hrW95Umv74v7fEIr1YC\noqmNN8o3tHvDFzb/Rccz/hQoMm+kEhrEP2d3DW88KLsPkj4MnNpf1Eg0WD+hfU/4\nSNyZrl6vpDlfVq6ftfYd1uAxzYlAbtU3lgo+aO48oIWhamuYhERajmF2qCtJr6QJ\n2i8Mr8GLAgMBAAECggEAOLg7+CN26tTb02DP0r0alDxyP7tQuyDlFhnk7vdLtEHd\nCKhk51uLjKGaf9yIlAKmV7Okqvd0OZKiQC56W3wo8GsPScz9r0V3V/TjL/TmGV35\nxOitzivoQ6SarW6570MDSDwwmm73KSKwCJbSXguAL6R2GRzkNc5UwDfJgKkQK/Rf\nEVq5ZO451Aysp/F43LCyEqnwhLpqHiyqtih2Sysu1zAizx5gyfHu75veiEJ3qASW\nL/zHEVDObKo8J+x01Mrbt9wAXdGUnuAsC9ofId4r565F5jj5zj0coZbxWmtIVUIM\nswPLnMyoHwZeeBekmiwcYHBqk9ZW8LikThN5tToGyQKBgQD2EidCc3WAquUtkJic\n8ttb+d3wAZsXwH87j3yRv8MJrsANo8y3omdSicn+pAEBN4yE4Ip2Jiy8DEOoBzAu\nnWkz25x76nUIyiGjayMZwUPBqhI9Cw0lwFLKLdKTpHrFsvJ5aENbwNeSvr2OxE79\nP7PY4JWtPWChE4u45ZHG8jZ9nwKBgQDQ9dkwb4qlwHC6ji2VJ750lNV6X7FwMALx\nAn5hV3+1FxzgcfdEnHmhqyyna8A5+lEEziDgsBbbsj6BLfi6eJkwQ/SfrlOqzrcx\nDbSVPUseoqMTIeIJ6fv7cdBi1NQ9kAaTGQ7IUlLHoCgwjZiGBF68Y7tF7tHXYftK\ns4XB2nzclQKBgF/1YlP6nIbpneev7KO/3SU4AoF2ztlrWvKKGQTpaBCdkg1/o/S0\no2A/lYL0x+OGmwiyW6yJZIaMrdGXxAVZo03yxUpZevxLfuSwggaoJFkgjm45og3n\nuyFWzzh+OtZf20jXDPV59VcnhNpo2XjO376ijhv5xHXsHl+jPr77c553AoGAf3k7\nIZ0qC6u2GVia3h78xMn24Ux3RmVDphtLVb63HZYX+6QKoESEvudZuli1T6kwu6mz\nzN4fU68NCmktDzR630LVfIQwbkbk4nvl6hUWOn4k1YsaBcpD+kSYR3Jmd5fhKuNi\nbTorXbSKT/RRU5Be6rY8jJEAWlBfqFaUBopvGXECgYEAgsZnPmyCDcz2yUjGSHus\nP5KavIeWhjgGex/axms5hw2OLdKRFM9aP4wMukmq4aBNADx5ambdfZfFcOUtvnLo\nXl1F6NLmND2mNSWl95O6mO1DqQLKk9fr0MkuTd59AKfnXiMNaWplkGADdFaKebAN\nar7T1pzXdxrYy3BBPvE+GFA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "makethon-service-account@makethon-2021.iam.gserviceaccount.com",
+  "client_id": "108258919500182802760",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/makethon-service-account%40makethon-2021.iam.gserviceaccount.com"
+}
