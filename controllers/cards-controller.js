@@ -12,6 +12,7 @@ exports.createCard = async (req, res, next) => {
     const userId = req.userData.userId;
     const cardType = req.body.cardType;
     const brandName = req.body.brandName;
+    const cardLimit = req.body.cardLimit;
 
     let imagePath;
 
@@ -34,6 +35,7 @@ exports.createCard = async (req, res, next) => {
       logo: imagePath ? imagePath : null,
       cardType: cardType || null,
       brandName: brandName || null,
+      cardLimit: cardLimit || null,
     });
 
     await res.status(201).json({
@@ -57,11 +59,11 @@ exports.getAllCards = async (req, res, next) => {
     });
 
     // decrypt data
-    cards.forEach(el => {
-        el.name = encrypter.decryptString(el.name),
-        el.expiryDate = encrypter.decryptString(el.expiryDate),
-        el.cvv = encrypter.decryptString(el.cvv),
-        el.cardNo = encrypter.decryptString(el.cardNo)
+    cards.forEach((el) => {
+      (el.name = encrypter.decryptString(el.name)),
+        (el.expiryDate = encrypter.decryptString(el.expiryDate)),
+        (el.cvv = encrypter.decryptString(el.cvv)),
+        (el.cardNo = encrypter.decryptString(el.cardNo));
     });
 
     return res.status(200).json({
@@ -126,6 +128,7 @@ exports.updateCard = async (req, res, next) => {
     const cardType = req.body.cardType;
     const brandName = req.body.brandName;
     const cardNo = req.body.cardNo;
+    const cardLimit = req.body.cardLimit;
 
     await card.update({
       name: name ? encrypter.encryptString(name.toString()) : card.name,
@@ -136,6 +139,7 @@ exports.updateCard = async (req, res, next) => {
       cardNo: cardNo ? encrypter.encryptString(cardNo.toString()) : card.cardNo,
       cardType: cardType || card.cardType,
       brandName: brandName || card.brandName,
+      cardLimit: cardLimit || card.cardLimit,
     });
 
     return res.status(200).json({

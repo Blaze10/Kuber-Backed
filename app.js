@@ -3,7 +3,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const multer = require('multer');
 
-
 const multerMid = multer({
   storage: multer.memoryStorage(),
   // fileFilter: (req, file, cb) => {
@@ -25,7 +24,6 @@ const userRoutes = require('./routes/user-routes');
 const cardRoutes = require('./routes/card-route');
 const merchantRoutes = require('./routes/merchant-route');
 const trasactionRoutes = require('./routes/transactions-route');
-
 
 const app = express();
 app.use(bodyParser.json());

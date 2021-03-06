@@ -6,43 +6,46 @@ class Cards extends Model {}
 Cards.init(
   {
     id: {
-      type: INTEGER,
+      type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
     },
     name: {
-      type: STRING,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     cvv: {
-      type: STRING,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     cardNo: {
-        type: STRING,
-        allowNull: false,
+      type: DataTypes.STRING,
+      allowNull: false,
     },
     expiryDate: {
-      type: STRING,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     userId: {
-      type: INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
     },
     logo: {
-      type: STRING,
+      type: DataTypes.STRING,
     },
     cardType: {
-      type: STRING,
+      type: DataTypes.STRING,
     },
     brandName: {
-      type: STRING,
+      type: DataTypes.STRING,
+    },
+    cardLimit: {
+      type: DataTypes.DOUBLE,
     },
   },
   { timestamps: true, sequelize: db }
 );
 
-Cards.sync();
+Cards.sync({ force: true });
 
 module.exports = Cards;
