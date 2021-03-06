@@ -23,6 +23,8 @@ const multerMid = multer({
 // routes
 const userRoutes = require('./routes/user-routes');
 const cardRoutes = require('./routes/card-route');
+const merchantRoutes = require('./routes/merchant-route');
+const trasactionRoutes = require('./routes/transactions-route');
 
 
 const app = express();
@@ -46,5 +48,7 @@ app.use((req, res, next) => {
 
 app.use('/api/users', userRoutes);
 app.use('/api/cards', cardRoutes);
+app.use('/api/merchant', merchantRoutes);
+app.use('/api/transactions', trasactionRoutes);
 
 module.exports = app;

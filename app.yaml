@@ -2,6 +2,8 @@ runtime: nodejs10
 
 env_variables:
   JWT_SECRET: 'makethonsupersecretkey'
+  JWT_MERCH_SECRET: 'makethonsubskey'
+  JWT_SUBS_SECRRET: 'makethonmerchsubskey'
   DB_NAME: 'makethon2021'
   DB_HOST: '35.244.33.122'
   DB_USER: 'chinmay'
@@ -10,3 +12,4 @@ env_variables:
   AZURE_SUBS_KEY: 'dae65faaa2de4cd2a0f89c3ad2c219bc'
   API_URL: 'https://centralindia.api.cognitive.microsoft.com/face/v1.0/'
   ENC_SECRET: 'makethonenckey'
+  GOOGLE_APPLICATION_CREDENTIALS: './makethon-2021-6bb59-firebase-adminsdk-rfado-875523927a.json'
