@@ -12,4 +12,3 @@ env_variables:
   AZURE_SUBS_KEY: 'dae65faaa2de4cd2a0f89c3ad2c219bc'
   API_URL: 'https://centralindia.api.cognitive.microsoft.com/face/v1.0/'
   ENC_SECRET: 'makethonenckey'
-  GOOGLE_APPLICATION_CREDENTIALS: './makethon-2021-6bb59-firebase-adminsdk-rfado-875523927a.json'
