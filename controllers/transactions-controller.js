@@ -22,6 +22,7 @@ exports.createTransactions = async (req, res, next) => {
       userId: userId,
       cardId: cardId,
       amount: +amount,
+      isProcessed: false,
     };
 
     //  save transaction to firestore
