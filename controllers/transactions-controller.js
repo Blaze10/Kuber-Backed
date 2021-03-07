@@ -46,8 +46,8 @@ exports.createTransactions = async (req, res, next) => {
 // update transaction
 exports.updateTransaction = async (req, res, next) => {
   try {
-    const transactionId = req.data.id;
-    const status = req.data.status;
+    const transactionId = req.body.id;
+    const status = req.body.status;
 
     if (!transactionId || !status) {
       throw { message: 'id and status are required' };

@@ -46,6 +46,6 @@ Cards.init(
   { timestamps: true, sequelize: db }
 );
 
-Cards.sync({ force: true });
+Cards.sync();
 
 module.exports = Cards;

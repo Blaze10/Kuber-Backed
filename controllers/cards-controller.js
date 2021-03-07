@@ -2,6 +2,9 @@ const encrypter = require('../middleware/encrypt-decrypt');
 const Cards = require('../models/card-model');
 const errorHandler = require('../middleware/error-handler');
 const uploadFile = require('../middleware/helper');
+const Transactions = require('../models/transactions-model');
+
+Cards.hasMany(Transactions);
 
 exports.createCard = async (req, res, next) => {
   try {
@@ -56,6 +59,7 @@ exports.getAllCards = async (req, res, next) => {
         userId: userId,
       },
       order: [['createdAt', 'DESC']],
+      include: [Transactions],
     });
 
     // decrypt data
