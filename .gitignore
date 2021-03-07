@@ -3,6 +3,8 @@
 /.pnp
 .pnp.js
 
+/config
+
 # testing
 /coverage
 
@@ -22,4 +24,6 @@ yarn-error.log*
 
 .next
 
-# .env
+.env
+.app.yaml
+.makethon-2021-6bb59-firebase-adminsdk-rfado-875523927a.json
